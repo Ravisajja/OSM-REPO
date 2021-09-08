@@ -1,0 +1,17 @@
+vnfd:
+  df:
+  - id: default-df
+  ext-cpd:
+  - id: mgmt-ext
+    k8s-cluster-net: mgmtnet
+  id: tomcat1_knf
+  k8s-cluster:
+    nets:
+    - id: mgmtnet
+  kdu:
+  - name: heartbeat-kdu
+    helm-chart: stable/heartbeat
+  mgmt-cp: mgmt-ext
+  product-name: heartbeat_knf
+  provider: stable
+  version: '1.0'

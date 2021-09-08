@@ -1,0 +1,1 @@
+b6fe70196a10ac925416af88a8120bfd	tomcat_knf/tomcat_vnfd.yaml
