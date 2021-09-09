@@ -1,0 +1,2 @@
+f8e509926a3ae6e238d31029400185e0	powerdns_ns/powerdns_nsd.yaml
+759e5cfc1f38e7c0a165f8b6af3c6659	powerdns_ns/params/params.yaml

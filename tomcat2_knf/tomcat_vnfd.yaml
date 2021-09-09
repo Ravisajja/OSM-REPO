@@ -1,0 +1,17 @@
+vnfd:
+  product-name: tomcat_cnf
+  version: "1.0"
+  provider: Bitnami
+  description: |
+    K8s container deployment of tomcat
+  id: tomcat_cnf
+  mgmt-cp: mgmtnet-ext
+  ext-cpd:
+    - id: mgmtnet-ext
+      k8s-cluster-net: mgmtnet
+  kdu:
+    - name: tomcat-kdu
+      helm-chart: bitnami/tomcat
+  k8s-cluster:
+    nets:
+      - id: mgmtnet

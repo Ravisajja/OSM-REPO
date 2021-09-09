@@ -1,0 +1,2 @@
+b063303e60565713cfb146364ba2c17b	nginx_ns/nginx_nsd.yaml
+e16276bfd46625c0b34861a3a2f79336	nginx_ns/params/params.yaml

@@ -1,0 +1,16 @@
+vld:
+- name: mgmtnet
+  vim-network-name: osm-ext
+additionalParamsForVnf:
+- member-vnf-index: nginx-ingress
+  additionalParamsForKdu:
+  - kdu_name: nginx-ingress
+    additionalParams:
+      controller:
+      # service.externalIPs: ["192.168.2.3"]
+      # replicaCount: 2  
+      # service.loadBalancerIP: '172.21.251.X' # MetalLB IP Address
+        service.type: NodePort
+      #service:
+        #type: NodePort
+        # loadBalancerIP: '172.21.251.X' # MetalLB IP Address

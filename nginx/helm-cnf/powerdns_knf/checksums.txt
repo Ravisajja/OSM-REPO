@@ -1,0 +1,1 @@
+838f3a267042311482397a145dcf8cbc	powerdns_knf/powerdns_vnfd.yaml

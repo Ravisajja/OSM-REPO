@@ -1,0 +1,1 @@
+c27eed66d5d40bfc4edc341c31d2ed61	tomcat4_knf/tomcat_vnfd.yaml

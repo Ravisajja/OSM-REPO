@@ -1,0 +1,30 @@
+vnfd:
+  df:
+  - id: default-df
+    lcm-operations-configuration:
+      operate-vnf-op-config:
+        day1-2:
+          - id: tomcat-kdu
+            config-primitive:
+            - name: changecontent
+              parameter:
+              - data-type: STRING
+                default-value: tomcat
+                name: application-name
+              - data-type: STRING
+                default-value: ''
+                name: customtitle
+  ext-cpd:
+  - id: mgmt-ext
+    k8s-cluster-net: mgmtnet
+  id: tomcat_knf
+  k8s-cluster:
+    nets:
+    - id: mgmtnet
+  kdu:
+  - name: tomcat-kdu
+    helm-chart: bitnami/tomcat
+  mgmt-cp: mgmt-ext
+  product-name: tomcat_knf
+  provider: tomcat
+  version: '1.0'

@@ -1,0 +1,1 @@
+c735c12a98fa12b81709c2735e34c782	nginx_knf/nginx_vnfd.yaml

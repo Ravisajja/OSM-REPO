@@ -1,0 +1,20 @@
+vnfd:
+  product-name: tomcat4_cnf
+  version: "1.0"
+  provider: Bitnami
+  description: |
+    K8s container deployment of tomcat
+  id: tomcat4_cnf
+  mgmt-cp: mgmtnet-ext
+  ext-cpd:
+    - id: mgmtnet-ext
+      k8s-cluster-net: mgmtnet
+  kdu:
+    - name: tomcat
+      helm-chart: nginx-stable/nginx-ingress
+  k8s-cluster:
+    nets:
+      - id: mgmtnet
+  df:
+   - id: default-df
+

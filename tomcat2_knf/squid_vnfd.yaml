@@ -1,0 +1,50 @@
+vnfd:
+  product-name: squid_cnf
+  version: "1.0"
+  provider: Canonical
+  description: |
+    K8s container deployment of Squid Web Proxy exporting metrics to Prometheus
+  id: squid_cnf
+  mgmt-cp: mgmtnet-ext
+  ext-cpd:
+    - id: mgmtnet-ext
+      k8s-cluster-net: mgmtnet
+  kdu:
+    - name: squid-metrics-kdu
+      juju-bundle: bundle.yaml
+  k8s-cluster:
+    nets:
+      - id: mgmtnet
+  df:
+    - id: default-df
+      lcm-operations-configuration:
+        operate-vnf-op-config:
+          day1-2:
+            - id: squid-metrics-kdu
+              initial-config-primitive:
+                - seq: 0
+                  name: add-url
+                  parameter:
+                    - name: application-name
+                      data-type: STRING
+                      value: squid
+                    - name: url
+                      data-type: STRING
+                      value: "osm.etsi.org"
+              config-primitive:
+                - name: add-url
+                  parameter:
+                    - name: application-name
+                      data-type: STRING
+                      default-value: squid
+                    - name: url
+                      data-type: STRING
+                      default-value: ""
+                - name: delete-url
+                  parameter:
+                    - name: application-name
+                      data-type: STRING
+                      default-value: squid
+                    - name: url
+                      data-type: STRING
+                      default-value: ""

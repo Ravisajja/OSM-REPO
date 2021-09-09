@@ -1,0 +1,24 @@
+nsd:
+  nsd:
+  - description: NS with 1 KDU connected to the mgmtnet VL
+    designer: Bitnami
+    df:
+    - id: default-df
+      vnf-profile:
+      - id: tomcat4_cnf
+        virtual-link-connectivity:
+        - constituent-cpd-id:
+          - constituent-base-element-id: tomcat4_cnf
+            constituent-cpd-id: mgmtnet-ext
+          virtual-link-profile-id: mgmtnet
+        vnfd-id: tomcat4_cnf
+    id: tomact4_cnf_ns
+    name: tomcat4_cnf_ns
+    version: '1.0'
+    virtual-link-desc:
+    - id: mgmtnet
+      mgmt-network: true
+      vim-network-name: mgmt
+    vnfd-id:
+    - tomcat4_cnf
+
