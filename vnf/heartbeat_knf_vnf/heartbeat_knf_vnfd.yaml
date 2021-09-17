@@ -1,0 +1,19 @@
+vnfd:
+  description: KNF with single KDU using a helm-chart for heartbeat
+  df:
+  - id: default-df
+  ext-cpd:
+  - id: mgmt-ext
+    k8s-cluster-net: mgmtnet
+  id: heartbeat_knf
+  k8s-cluster:
+    nets:
+    - id: mgmtnet
+  kdu:
+  - name: heartbeat
+    helm-chart: stable/heartbeat
+  mgmt-cp: mgmt-ext
+  product-name: heartbeat_knf
+  provider: stable
+  version: '1.0'
+
