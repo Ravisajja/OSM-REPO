@@ -8,7 +8,7 @@ ns_packages:
       path: /ns/heartbeat_ns_ns/1.0/heartbeat_ns_ns.tar.gz
     latest: '1.0'
 vnf_packages:
-  heartbeat_knf_vnf:
+  heartbeat_knf:
     '1.0':
       vendor:
       name: heartbeat_knf
