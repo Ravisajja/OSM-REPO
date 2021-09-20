@@ -1,0 +1,7 @@
+name: heartbeat_vnf
+images: []
+version: '1.0'
+vendor: ATOS
+id: heartbeat_vnf
+description: KNF with KDU using a helm-chart for Facebook magma orc8r
+path: /vnf/heartbeat_vnf/1.0/heartbeat_vnf.tar.gz

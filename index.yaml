@@ -1,12 +1,5 @@
 generated: '2020-06-02T23:09:10.1591132150Z'
 apiVersion: v1
-ns_packages:
-  heartbeat_ns:
-    '1.0':
-      name: heartbeat_ns
-      description: NS consisting of a KNF heartbeat_knf connected to mgmt network
-      path: /ns/heartbeat_ns_ns/1.0/heartbeat_ns_ns.tar.gz
-    latest: '1.0'
 vnf_packages:
   heartbeat_vnf:
     '1.0':
