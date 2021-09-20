@@ -1,5 +1,5 @@
 checksum: 16d7c439bcbd887d0824bcfc113b4a36
-name: heartbeat_kf
+name: heartbeat_knf
 images: []
 version: '1.0'
 id: heartbeat_knf

@@ -7,7 +7,7 @@ vnfd:
   ext-cpd:
   - id: mgmt-ext
     k8s-cluster-net: mgmtnet
-  id: heartbeat_knf
+  id: heartbeat_vnf
   k8s-cluster:
     nets:
     - id: mgmtnet
