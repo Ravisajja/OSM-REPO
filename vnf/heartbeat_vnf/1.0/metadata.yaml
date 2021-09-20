@@ -1,0 +1,7 @@
+checksum: 16d7c439bcbd887d0824bcfc113b4a36
+name: heartbeat_kf
+images: []
+version: '1.0'
+id: heartbeat_knf
+description: KNF with KDU using a helm-chart for heartbeat orc8r
+path: /vnf/heartbeat_vnf/1.0/heartbeat_vnf.tar.gz

@@ -13,5 +13,5 @@ vnf_packages:
       vendor:
       name: heartbeat_knf
       description:
-      path: /vnf/heartbeat_knf/1.0/heartbeat_knf.tar.gz
+      path: /vnf/heartbeat_vnf/1.0/heartbeat_vnf.tar.gz
     latest: '1.0'
