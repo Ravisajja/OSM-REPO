@@ -1,3 +1,5 @@
 741fc275d6f92ae590460f5b566052cf	heartbeat_vnf/README.md
-5a3decc9be6930274acbd462eff007ca	heartbeat_vnf/heartbeat_vnfd.yaml
+24fba698d56f475e016c294cd6744901	heartbeat_vnf/heartbeat_vnfd.yaml
 3a4799d01502c86f56b0412dc33cf647	heartbeat_vnf/cloud_init/cloud-config.txt
+7e5f1d3de97bb8ca6149e8f6999c8eb3	heartbeat_vnf/1.0/metadata.yaml
+a337a10ce123056677b8fd353ce5079b	heartbeat_vnf/1.0/heartbeat_vnf.tar.gz
