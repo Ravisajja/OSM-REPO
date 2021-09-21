@@ -1,2 +1,4 @@
 eb3e0bf3a18a62cdd01b14fafb87c9db	heartbeat_ns/README.md
-a67e2668f48d9f6a585f034c5657194c	heartbeat_ns/heartbeat_nsd.yaml
+f2882f21d792785b4db219bef5e7d393	heartbeat_ns/heartbeat_nsd.yaml
+62bd75b68063e81a6b19d4f3de98683a	heartbeat_ns/1.0/metadata.yaml
+64ca7e5ab5089c500f1afeb4e4768c49	heartbeat_ns/1.0/heartbeat_ns.tar.gz
