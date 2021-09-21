@@ -1,9 +1,0 @@
-checksum: f7f07d3ae5c1b4616ad08cb351433b56 
-id: heartbeat_ns_ns
-version: '1.0'
-name: heartbeat_ns_ns
-vendor: ATOS
-vnfd-id-ref:
-- heartbeat_knf_vnf
-description: NS consisting of a KNF fb_magma_knf connected to mgmt network
-path: /ns/heartbeat_ns_ns/1.0/heartbeat_ns_ns.tar.gz

@@ -1,0 +1,7 @@
+name: heartbeat_ns
+images: []
+version: '1.0'
+vendor: ATOS
+id: heartbeat_ns
+description: KNF with KDU using a helm-chart for heartbeat orc8r
+path: /ns/heartbeat_ns/1.0/heartbeat_ns.tar.gz

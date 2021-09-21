@@ -1,0 +1,23 @@
+nsd:
+  nsd:
+  - description: NS consisting of a KNF heartbeat_knf
+    df:
+    - id: default-df
+      vnf-profile:
+      - id: heartbeat
+        virtual-link-connectivity:
+        - constituent-cpd-id:
+          - constituent-base-element-id: heartbeat
+            constituent-cpd-id: mgmt-ext
+          virtual-link-profile-id: mgmtnet
+        vnfd-id: heartbeat_vnf
+    id: tomcat_ns
+    name: tomact_ns
+    version: '1.0'
+    virtual-link-desc:
+    - id: mgmtnet
+      mgmt-network: true
+      vim-network-name: dummyvim
+    vnfd-id:
+    - heartbeat_vnf
+
