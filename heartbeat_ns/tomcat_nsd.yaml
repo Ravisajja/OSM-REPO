@@ -11,8 +11,8 @@ nsd:
             constituent-cpd-id: mgmt-ext
           virtual-link-profile-id: mgmtnet
         vnfd-id: heartbeat_knf
-    id: tomcat_ns
-    name: tomact_ns
+    id: heartbeat_ns
+    name: heartbeat_ns
     version: '1.0'
     virtual-link-desc:
     - id: mgmtnet
