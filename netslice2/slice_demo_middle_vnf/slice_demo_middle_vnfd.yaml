@@ -1,0 +1,28 @@
+vnfd:
+  product-name: slice_demo_middle_knf
+  version: "1.0"
+  provider: Dev
+  description: |
+    K8s container deployment of middle centos
+  id: slice_demo_middle_knf
+  mgmt-cp: mgmtnet-ext
+  ext-cpd:
+    - id: mgmtnet-ext
+      k8s-cluster-net: mgmtnet
+    - id: datanet-ext
+      k8s-cluster-net: datanet
+    - id: uinet-ext
+      k8s-cluster-net: uinet
+  kdu:
+    - name: centos
+      helm-chart: dev-helm-charts/ns-chart
+  k8s-cluster:
+    nets:
+      - id: mgmtnet
+    nets:
+      - id: datanet
+    nets:
+      - id: uinet
+  df:
+   - id: default-df
+
