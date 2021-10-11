@@ -1,0 +1,35 @@
+nsd-catalog:
+  nsd:
+  -  id: slice_demo_ns2
+     name: slice_demo_ns2
+     version: '1.0'
+      description: NS consisting of a KNF fb_magma_knf connected to mgmt network
+  constituent-vnfd:
+  -  member-vnf-index: "1"
+     vnfd-id-ref: slice_demo_knf2
+
+   vld:
+        -   id: nsd_vnfd_vld_mgmt
+            name: nsd_vnfd_vld_mgmt
+            short-name: nsd_vnfd_vld_mgmt
+            type: ELAN
+            mgmt-network: true
+            vnfd-connection-point-ref:
+            -   member-vnf-index-ref: "1"
+                vnfd-id-ref: slice_demo_knf2
+                vnfd-connection-point-ref: mgmtnet-ext
+        -   id: nsd_vnfd_vld_data2
+            name: nsd_vnfd_vld_data2
+            short-name: nsd_vnfd_vld_data2
+            type: ELAN
+            mgmt-network: false
+            vnfd-connection-point-ref:
+            -   member-vnf-index-ref: "1"
+                vnfd-id-ref: slice_demo_knf2
+                vnfd-connection-point-ref: uinet-ext
+
+    connection-point:
+    -   name: nsd_cp_mgmt
+        vld-id-ref: nsd_vnfd_vld_mgmt
+    -   name: nsd_cp_data1
+        vld-id-ref: nsd_vnfd_vld_data2

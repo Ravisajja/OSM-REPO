@@ -1,0 +1,2 @@
+57e23c83fc9fc5c173c4625b200bf36d	slice_hackfest_middle_ns/README.md
+8d9783b959dd423540af6f76224a1775	slice_hackfest_middle_ns/slice_hackfest_middle_nsd.yaml

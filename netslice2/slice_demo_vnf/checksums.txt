@@ -1,0 +1,1 @@
+dc27a686484625be400de72db055438a	slice_demo_vnf/slice_demo_knfd.yaml
