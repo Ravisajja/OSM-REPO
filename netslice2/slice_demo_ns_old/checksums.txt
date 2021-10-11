@@ -1,1 +1,0 @@
-67099901870cad0578d6ad5c0477176c	slice_demo_ns/slice_basic_nsd.yaml

@@ -1,1 +1,0 @@
-f4a49d7ade0c704a792aa5b592f341ff	slice_demo_middle_ns/slice_demo_middle_nsd.yaml

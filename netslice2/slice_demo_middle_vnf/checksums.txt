@@ -1,1 +1,0 @@
-b1806f25ca2b776085f1633514c33ffc	slice_demo_middle_vnf/slice_demo_middle_vnfd.yaml
