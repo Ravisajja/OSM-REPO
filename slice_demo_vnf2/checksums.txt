@@ -1,0 +1,1 @@
+f2f52e5e052d5b5c548760239e96f32a	slice_demo_vnf2/slice_demo_knfd.yaml
